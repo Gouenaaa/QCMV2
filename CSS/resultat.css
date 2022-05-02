@@ -1,0 +1,78 @@
+#divResultat{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.divQuestion{
+    margin-top: 25px;
+    display: flex;
+    width: 80%;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.divReponse{
+    margin-top: 10px;
+}
+
+.divTexte{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.divImg{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 100px;
+}
+
+.rouge{
+    color: red;
+}
+
+.vert{
+    color: green;
+}
+
+#barreProgression{
+    margin-top: 20px;
+    height: 35px;
+    width: 1000px;
+    border: solid 5px;
+    background-color: red;
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.vertP{
+    background-color: green;
+    height: 40px;
+    width: 10px;
+}
+
+#btnSubmit{
+    width: 200px;
+    height: 25px;
+}
+
+#frmFin{
+    margin-top: 20px;
+}

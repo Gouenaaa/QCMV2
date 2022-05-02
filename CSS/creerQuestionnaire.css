@@ -1,0 +1,135 @@
+#head{
+    display: flex;
+    height: 100px;
+    background-color: lightgray;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    border: black solid;
+}
+
+#divLogo{
+    height: 90px;
+    width: 90%;
+    margin-left: 5px;
+}
+
+#imgLogo{
+    height: 90px;
+}
+
+#divProfil{
+    background-color: rgb(165, 165, 165);
+    width: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border: black solid;
+}
+
+#divCreerQuestionnaire{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frmQuestionnaire{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#divQuestionnaire{
+    background-color: lightgray;
+    border: black solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputQuestionnaire{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divQuestionsQuestionnaire,#divRecherche,#divQuestions{
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    min-height: 10px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+#divRecherche{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#divRecherche,#divQuestions{
+    width: 600px;
+}
+
+#divQuestions{
+    display: flex;
+    align-items: center;
+    min-height: 10px;
+    overflow: auto;
+}
+
+#inputRecherche{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+#btnRecherche{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 150px;
+}
+
+h3,h4{
+    margin-left: 10px;
+}
+h5{
+    margin-left: 20px;
+}
+
+.divQuestion{
+    border: black solid;
+    border-radius: 10px;
+    width: 570px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.bonne{
+    color: yellowgreen;
+}
+
+.btn{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#divBtnsPages{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}

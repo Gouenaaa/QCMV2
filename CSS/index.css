@@ -1,0 +1,47 @@
+/* #divAccueil{
+    display: flex;
+    width: 100%;
+    height: 696px;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 696px;
+} */
+
+#divLogo{
+    width: 375px;
+    height: 375px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#divConnexion{
+    /* display: flex;
+    background-color: lightgrey; */
+    width: 350px;
+    height: 350px;
+    /* justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px; */
+}
+
+#formConnexion{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    height: 100px;
+    width: 260px;
+}
+
+.inputConnexion{
+    width: 150px;
+    height: 15px;
+}

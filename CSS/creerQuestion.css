@@ -1,0 +1,100 @@
+#head{
+    display: flex;
+    height: 100px;
+    background-color: lightgray;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    border: black solid;
+}
+
+#divLogo{
+    height: 90px;
+    width: 90%;
+    margin-left: 5px;
+}
+
+#imgLogo{
+    height: 90px;
+}
+
+#divProfil{
+    background-color: rgb(165, 165, 165);
+    width: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    height: 30px;
+    border-radius: 10px;
+    border: black solid;
+}
+
+#divContainer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCreerQuestion{
+    width: 500px;
+    min-height: 100px;
+    border: black solid;
+    border-radius: 10px;
+    background-color: lightgray;
+    overflow:auto;
+}
+
+#frmQuestion{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#divIntitule{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#txtIntitule{
+    width: 350px;
+}
+
+#divReponses{
+    display: flex;
+    flex-direction: column;
+}
+
+.divReponse{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btnAjouterReponse{
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btnSupprimer{
+    margin-left: 30px;
+}
+
+#divConfirmation{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btnAnnuler{
+    margin-left: 340px;
+}
+
+#txtLien{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
